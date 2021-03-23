@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58956D</color>
+    <color name="colorPrimaryDark">#5785B3</color>
+    <color name="colorPrimaryfateh">#707070</color>
+    <color name="colorAccent">#2A2E43</color>
+    <color name="colorButton">#3ACCE1</color>
+    <color name="colorYaloo">#FFB900</color>
+    <color name="colorDetails">#665EFF</color>
+    <color name="colorShareDetails">#C840E9</color>
+    <color name="colorEditText">#454F63</color>
+    <color name="transparent_black">#60000000</color>
+    <color name="hint">#78849E</color>
+    <color name="colorRed">#9f0000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="m_1">#5952DF</color>
+    <color name="m_2">#4C64DF</color>
+    <color name="m_3">#2D84DE</color>
+    <color name="m_4">#665EFF</color>
+    <color name="m_5">#5773FF</color>
+    <color name="m_6">#3497FD</color>
+    <color name="black_overlay">#000000</color>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.UserType.addPhoto.AddPhotoFragment">
+
+    <LinearLayout
+        android:background="@drawable/shadow_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="اضافة صورة"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp">
+
+                <ImageView
+                    android:id="@+id/view_photo"
+                    android:src="@drawable/cir_image"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+
+                <TextView
+                    android:id="@+id/add_photo"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:text="اضف صورة هنا"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"/>
+
+            </RelativeLayout>
+
+           <LinearLayout
+               android:layout_marginTop="@dimen/_20sdp"
+               android:layout_marginEnd="@dimen/_20sdp"
+               android:layout_marginStart="@dimen/_20sdp"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_margin="@dimen/_10sdp"
+                   android:layout_marginTop="@dimen/_12sdp"
+                   android:textSize="@dimen/_14sdp"
+                   android:textStyle="bold"
+                   android:gravity="start"
+                   android:text="اسم الشخص في الصورة"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <EditText
+                   android:layout_margin="@dimen/_10sdp"
+                   android:padding="@dimen/_8sdp"
+                   android:background="@drawable/shape_edittext"
+                   android:id="@+id/username"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:layout_margin="@dimen/_10sdp"
+                   android:layout_marginTop="@dimen/_12sdp"
+                   android:textStyle="bold"
+                   android:textSize="@dimen/_14sdp"
+                   android:gravity="start"
+                   android:text="علاقته بـالمريض"
+                   android:textColor="@color/colorPrimaryDark"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <Spinner
+                   android:layout_margin="@dimen/_10sdp"
+                   android:padding="@dimen/_18sdp"
+                   android:background="@drawable/shape_edittext"
+                   android:id="@+id/location"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:id="@+id/upload"
+                   android:layout_marginStart="@dimen/_60sdp"
+                   android:layout_marginEnd="@dimen/_60sdp"
+                   android:layout_marginBottom="@dimen/_10sdp"
+                   android:padding="@dimen/_12sdp"
+                   android:layout_marginTop="@dimen/_10sdp"
+                   android:textStyle="bold"
+                   android:textSize="@dimen/_14sdp"
+                   android:gravity="center"
+                   android:textColor="#fff"
+                   android:text="رفع صورة"
+                   android:background="@drawable/btn_accent_cir"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:id="@+id/upload_fast"
+                   android:layout_marginStart="@dimen/_60sdp"
+                   android:layout_marginEnd="@dimen/_60sdp"
+                   android:layout_marginBottom="@dimen/_10sdp"
+                   android:padding="@dimen/_12sdp"
+                   android:layout_marginTop="@dimen/_10sdp"
+                   android:textStyle="bold"
+                   android:textSize="@dimen/_14sdp"
+                   android:gravity="center"
+                   android:textColor="#fff"
+                   android:text="رفع صورة فورية"
+                   android:background="@drawable/btn_accent_cir"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

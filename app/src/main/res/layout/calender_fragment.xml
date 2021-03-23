@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/shadow"
+        android:orientation="vertical">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:mcv_allowClickDaysOutsideCurrentMonth="true"
+            app:mcv_arrowColor="@color/colorPrimary"
+            app:mcv_calendarMode="month"
+            app:mcv_selectionColor="@color/colorPrimary"
+            app:mcv_showOtherDates="all"
+            app:mcv_tileHeight="35dp"
+            app:mcv_tileWidth="60dp"
+            app:mcv_titleAnimationOrientation="horizontal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/add_reminder_calender"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_80sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14sdp"
+        android:gravity="center"
+        android:text="أضف تذكير"
+        android:drawableStart="@drawable/add_reminder"
+        android:textColor="#fff"
+        android:background="@drawable/btn_accent_cir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_events"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

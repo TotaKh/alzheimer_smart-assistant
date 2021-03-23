@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faceRec.Activities.MainActivity"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/logo_app" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:gravity="center"
+            android:text="التحقق من الصور"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:visibility="gone"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:id="@+id/button_settings"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:text="اضافة صورة"
+            android:id="@+id/button_addPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/btn_accent_cir"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            />
+
+
+        <Button
+            android:visibility="gone"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detection Test"
+            android:enabled="false"
+            android:id="@+id/button_detection_test"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:visibility="gone"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detection View"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/button_detection_view" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/btn_accent_cir"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            android:text="مزامنة"
+            android:id="@+id/button_recognition_training"
+          />
+
+        <Button
+            android:visibility="gone"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recognition Test"
+            android:id="@+id/button_recognition_test"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/btn_accent_cir"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            android:text="التعرف على الشخص"
+            android:id="@+id/button_recognition_view" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_40sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/btn_accent_cir"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:textColor="#fff"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            android:text="كيفية الاستخدام"
+            android:id="@+id/button_about" />
+
+    </LinearLayout>
+</RelativeLayout>

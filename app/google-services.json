@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1047477552180",
+    "firebase_url": "https://alzheimerapp-ebd11.firebaseio.com",
+    "project_id": "alzheimerapp-ebd11",
+    "storage_bucket": "alzheimerapp-ebd11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047477552180:android:685767301c03bafaceb661",
+        "android_client_info": {
+          "package_name": "com.alzheimerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047477552180-okg1m1tsrfg7tthed3jl43pk46lmi6gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDItkBylsm_O9WOj-Jtz51EKyGEBE7ILQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047477552180-okg1m1tsrfg7tthed3jl43pk46lmi6gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
